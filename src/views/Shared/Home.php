@@ -29,9 +29,9 @@ require_once 'Header.php';
 				<p class="mt-4 text-sm leading-6 text-gray-300">See all our upcoming events.</p>
 			</div>
 		</a>
-		<a href="/st-marys/donate">
+		<a href="/st-marys/giving">
 			<div class="rounded-3xl mx-6 p-8 ring-1 ring-gray-200">
-				<h3 class="text-lg font-semibold leading-8 text-gray-100">Donate</h3>
+				<h3 class="text-lg font-semibold leading-8 text-gray-100">Giving</h3>
 				<p class="mt-4 text-sm leading-6 text-gray-300">Support us financially.</p>
 			</div>
 		</a>
