@@ -57,20 +57,32 @@ switch ($uri) {
 		$controller = new Controllers\WhatsOn\ChildrenController();
 		$controller->index();
 		break;
-	case '/media':
-		$controller = new Controllers\ErrorController();
+	case '/christenings':
+		$controller = new Controllers\LifeEvents\ChristeningsController();
 		$controller->index();
 		break;
-	case '/events':
-		$controller = new Controllers\ErrorController();
+	case '/baptisms':
+		$controller = new Controllers\LifeEvents\BaptismsController();
+		$controller->index();
+		break;
+	case '/weddings':
+		$controller = new Controllers\LifeEvents\WeddingsController();
+		$controller->index();
+		break;
+	case '/funerals':
+		$controller = new Controllers\LifeEvents\FuneralsController();
+		$controller->index();
+		break;
+	case '/bookings':
+		$controller = new Controllers\BookingsController();
+		$controller->index();
+		break;
+	case '/giving':
+		$controller = new Controllers\GivingController();
 		$controller->index();
 		break;
 	case '/contact-us':
-		$controller = new Controllers\ErrorController();
-		$controller->index();
-		break;
-	case '/donate':
-		$controller = new Controllers\ErrorController();
+		$controller = new Controllers\ContactUsController();
 		$controller->index();
 		break;
 	default:
