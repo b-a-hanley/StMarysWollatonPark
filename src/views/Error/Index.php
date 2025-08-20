@@ -13,3 +13,7 @@ require_once 'src/views/Shared/Header.php';
     
   </div>
 </div>
+
+<?php
+require_once 'src/views/Shared/Footer.php';
+?>
