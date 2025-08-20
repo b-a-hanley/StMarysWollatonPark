@@ -1,12 +1,12 @@
 <?php
 namespace App\Controllers;
 
-class OurVisionController {
+class BookingsController {
 
 	public function __construct() {}
 
 	public function index() {
-        require_once('src/views/Error/Index.php');
+        require_once('src/views/Shared/home.php');
     }
 
 }
