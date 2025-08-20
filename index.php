@@ -53,6 +53,10 @@ switch ($uri) {
 		$controller = new Controllers\WhatsOn\StudentsController();
 		$controller->index();
 		break;
+	case '/children':
+		$controller = new Controllers\WhatsOn\ChildrenController();
+		$controller->index();
+		break;
 	case '/media':
 		$controller = new Controllers\ErrorController();
 		$controller->index();
