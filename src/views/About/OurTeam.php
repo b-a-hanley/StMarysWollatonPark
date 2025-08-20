@@ -5,7 +5,7 @@ require_once 'src/views/Shared/Header.php';
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
       <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
           <h3 class="text-base font-semibold leading-7 text-indigo-300">St Mary's Wollaton Park:</h3>
-          <p class="mt-2 text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Who we are</p>
+          <p class="mt-2 text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Our Team</p>
        </div> 
 
       <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
@@ -74,6 +74,24 @@ require_once 'src/views/Shared/Header.php';
               </div>
           </div>  
       </div>  
+      <!-- Read more block -->
+  <div class="mx-auto max-w-4xl px-2 py-12 text-center">
+    <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-2xl">Read more</p>
+  </div>
+
+  <!-- Links -->
+  <div class="mt-6 grid md:grid-cols-2 gap-4">
+    <a href="/st-marys/our-story">
+      <div class="rounded-3xl mx-6 p-8 ring-1 ring-gray-200 hover:ring-indigo-400 transition">
+        <h3 class="text-lg font-semibold leading-8 text-gray-100">Our Story</h3>
+      </div>
+    </a>
+    <a href="/st-marys/our-beliefs">
+      <div class="rounded-3xl mx-6 p-8 ring-1 ring-gray-200 hover:ring-indigo-400 transition">
+        <h3 class="text-lg font-semibold leading-8 text-gray-100">Our Beliefs</h3>
+      </div>
+    </a>
+  </div>
   </div>
 
 <?php

@@ -26,10 +26,10 @@
                   <a href="/st-marys/our-story" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Our Story</a>
                 </li>
                 <li>
-                  <a href="/st-marys/who-are-we" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Who are we?</a>
+                  <a href="/st-marys/our-team" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Our Team</a>
                 </li>
                 <li>
-                  <a href="/st-marys/what-we-believe" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">What we believe?</a>
+                  <a href="/st-marys/our-beliefs" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Our Beliefs</a>
                 </li>
               </ul>
           </div>
@@ -78,9 +78,6 @@
                 </li>
               </ul>
           </div>
-        </li>
-        <li>
-            <a href="/st-marys/media" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 px-2 py-2 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Media</a>
         </li>
         <li>
             <a href="/st-marys/bookings" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 px-2 py-2 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Bookings</a>
