@@ -29,8 +29,8 @@ switch ($uri) {
 		$controller = new Controllers\HomeController();
 		$controller->index();
 		break;
-	case '/about-us':
-		$controller = new Controllers\ErrorController();
+	case '/our-story':
+		$controller = new Controllers\About\OurStoryController();
 		$controller->index();
 		break;
 	case '/media':
