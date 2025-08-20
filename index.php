@@ -33,8 +33,24 @@ switch ($uri) {
 		$controller = new Controllers\About\OurStoryController();
 		$controller->index();
 		break;
-	case '/who-are-we':
-		$controller = new Controllers\About\WhoAreWeController();
+	case '/our-team':
+		$controller = new Controllers\About\OurTeamController();
+		$controller->index();
+		break;
+	case '/our-beliefs':
+		$controller = new Controllers\About\OurBeliefsController();
+		$controller->index();
+		break;
+	case '/sundays':
+		$controller = new Controllers\WhatsOn\SundaysController();
+		$controller->index();
+		break;
+	case '/midweek':
+		$controller = new Controllers\WhatsOn\MidweekController();
+		$controller->index();
+		break;
+	case '/students':
+		$controller = new Controllers\WhatsOn\StudentsController();
 		$controller->index();
 		break;
 	case '/media':
