@@ -1,12 +1,12 @@
 <?php
-namespace App\Controllers;
+namespace App\Controllers\WhatsOn;
 
 class ChildrenController {
 
 	public function __construct() {}
 
 	public function index() {
-        require_once('src/views/Media/Index.php');
+        require_once('src/views/WhatsOn/Children.php');
     }
 
-} 
+}
