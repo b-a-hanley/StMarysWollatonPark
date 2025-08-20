@@ -6,7 +6,7 @@ require_once 'src/views/Shared/Header.php';
   <!-- Title block -->
   <div class="text-center px-6">
     <h3 class="text-base font-semibold leading-7 text-indigo-300">St Mary's Wollaton Park:</h3>
-    <p class="mt-2 text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Children</p>
+    <p class="mt-2 text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Giving</p>
   </div>
 
   <!-- Section 1: Image left, Text right -->
@@ -20,9 +20,8 @@ require_once 'src/views/Shared/Header.php';
 
     <!-- Text -->
     <div class="mx-auto max-w-2xl text-center md:text-left md:order-1">
-      <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">Children's Church</p>
       <p class="mt-6 text-lg leading-8 text-gray-100">
-        Children are at the heart of the church, during our church services we run a kids group.
+        Here are few of the ways you can donate to us.
       </p>
     </div>
   </div>
@@ -34,14 +33,14 @@ require_once 'src/views/Shared/Header.php';
 
   <!-- Links -->
   <div class="mt-6 grid md:grid-cols-2 gap-4">
-    <a href="/st-marys/sundays">
+    <a href="/st-marys/our-beliefs">
       <div class="rounded-3xl mx-6 p-8 ring-1 ring-gray-200 hover:ring-indigo-400 transition">
-        <h3 class="text-lg font-semibold leading-8 text-gray-100">Sundays</h3>
+        <h3 class="text-lg font-semibold leading-8 text-gray-100">Our Beliefs</h3>
       </div>
     </a>
-    <a href="/st-marys/our-team">
+    <a href="/st-marys/baptisms">
       <div class="rounded-3xl mx-6 p-8 ring-1 ring-gray-200 hover:ring-indigo-400 transition">
-        <h3 class="text-lg font-semibold leading-8 text-gray-100">Our Team</h3>
+        <h3 class="text-lg font-semibold leading-8 text-gray-100">Baptisms</h3>
       </div>
     </a>
   </div>
