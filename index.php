@@ -50,7 +50,7 @@ switch ($uri) {
 		$controller->index();
 		break;
 	default:
-		http_response_code(404);
-		echo '404 Not Found';
+		$controller = new Controllers\ErrorController();
+		$controller->index();
 		break;
 }
