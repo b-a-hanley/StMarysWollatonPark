@@ -33,6 +33,10 @@ switch ($uri) {
 		$controller = new Controllers\About\OurStoryController();
 		$controller->index();
 		break;
+	case '/who-are-we':
+		$controller = new Controllers\About\WhoAreWeController();
+		$controller->index();
+		break;
 	case '/media':
 		$controller = new Controllers\ErrorController();
 		$controller->index();
