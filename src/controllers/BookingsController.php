@@ -6,7 +6,7 @@ class BookingsController {
 	public function __construct() {}
 
 	public function index() {
-        require_once('src/views/Shared/home.php');
+        require_once('src/views/Bookings.php');
     }
 
 }

@@ -6,7 +6,7 @@ class ContactUsController {
 	public function __construct() {}
 
 	public function index() {
-        require_once('src/views/ContactUs/Index.php');
+        require_once('src/views/ContactUs.php');
     }
 
 }

@@ -1,12 +1,12 @@
 <?php
 namespace App\Controllers;
 
-class ChristeningController {
+class GivingController {
 
 	public function __construct() {}
 
 	public function index() {
-        require_once('src/views/Error/Index.php');
+        require_once('src/views/Giving.php');
     }
 
-}
+} 
