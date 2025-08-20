@@ -1,14 +1,12 @@
 <?php
 namespace App\Controllers;
 
-use App\Models\AboutUs;
-
-class AboutUsController {
+class ChristeningController {
 
 	public function __construct() {}
 
 	public function index() {
-        require_once('src/views/AboutUs/Index.php');
+        require_once('src/views/Error/Index.php');
     }
 
 }

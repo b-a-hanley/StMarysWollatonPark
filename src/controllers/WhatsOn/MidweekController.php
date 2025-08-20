@@ -1,14 +1,12 @@
 <?php
 namespace App\Controllers;
 
-use App\Models\Event;
-
-class EventController {
+class MidweekController {
 
 	public function __construct() {}
 
 	public function index() {
-        require_once('src/views/Event/Index.php');
+        require_once('src/views/Media/Index.php');
     }
 
 } 
