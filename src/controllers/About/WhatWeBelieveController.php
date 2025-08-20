@@ -1,5 +1,5 @@
 <?php
-namespace App\Controllers;
+namespace App\About\Controllers;
 
 class WhatWeBelieveController {
 
