@@ -6,7 +6,7 @@ class OurStoryController {
 	public function __construct() {}
 
 	public function index() {
-        require_once('src/views/About/Index.php');
+        require_once('src/views/About/OurStory.php');
     }
 
 }
