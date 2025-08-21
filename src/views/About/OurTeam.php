@@ -74,12 +74,10 @@ require_once 'src/views/Shared/Header.php';
               </div>
           </div>  
       </div>  
-      <!-- Read more block -->
   <div class="mx-auto max-w-4xl px-2 py-12 text-center">
     <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-2xl">Read more</p>
   </div>
 
-  <!-- Links -->
   <div class="mt-6 grid md:grid-cols-2 gap-4">
     <a href="/st-marys/our-story">
       <div class="rounded-3xl mx-6 p-8 ring-1 ring-gray-200 hover:ring-indigo-400 transition">
