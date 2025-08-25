@@ -9,20 +9,7 @@ require_once 'src/views/Shared/Header.php';
     <p class="mt-2 text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">Bookings</p>
   </div>
 
-  
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-12 px-6">
-    <div class="flex justify-center md:justify-start">
-      <img class="h-auto max-w-full rounded-lg shadow-lg" 
-        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" 
-        alt="St Mary's Wollaton Park">
-    </div>
-
-    <div class="mx-auto max-w-2xl text-center md:text-left md:order-1">
-      <p class="mt-6 text-lg leading-8 text-gray-100">
-        Rent our space.
-      </p>
-    </div>
-  </div>
+  <iframe class="px-6 py-6" frameborder="0" allowtransparent="yes" scrolling="yes" src="https://demo.churchsuite.com/-/bookings/940cb3b1-eaaf-478c-b981-37dcb5d3ec39" style="border-width:0" height="860px" width="100%"></iframe>
 
   <div class="mx-auto max-w-4xl px-2 py-12 text-center">
     <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-2xl">Read more</p>
