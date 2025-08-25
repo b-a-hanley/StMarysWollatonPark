@@ -5,17 +5,15 @@ require_once 'vendor/autoload.php';
 // Namespace declaration
 
 use App\Controllers;
+use App\Routes;
 
 $request_uri = $_SERVER['REQUEST_URI'];
 $base_uri = str_replace('/index.php', '', $_SERVER['SCRIPT_NAME']);
 $uri = substr($request_uri, strlen($base_uri));
-$prefix = '/st-marys';
-if (strpos($uri, $prefix) === 0) {
-    $uri = substr($uri, strlen($prefix));
+if (strpos($uri, '/st-marys') === 0) {
+    $uri = substr($uri, strlen('/st-marys'));
 }
 
-// use App\Controllers\HomeController;
-// Route to the appropriate controller based on the URI
 switch ($uri) {
 	case '/':
 		$controller = new Controllers\HomeController();
@@ -56,6 +54,18 @@ switch ($uri) {
 	case '/children':
 		$controller = new Controllers\WhatsOn\ChildrenController();
 		$controller->index();
+		break;
+	case '/events/instagram':
+		$controller = new Routes\Events();
+		$controller->routes($uri);
+		break;
+	case '/events/manual':
+		$controller = new Routes\Events();
+		$controller->routes($uri);
+		break;
+	case '/events/churchsuite':
+		$controller = new Routes\Events();
+		$controller->routes($uri);
 		break;
 	case '/christenings':
 		$controller = new Controllers\LifeEvents\ChristeningsController();
