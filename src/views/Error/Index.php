@@ -8,8 +8,8 @@ require_once 'src/views/Shared/Header.php';
       <p class="mt-2 text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">
         Error 404: Couldn't find page
       </p>
+      <a href="https://twowaystolive.com/" class="mx-auto px-5 mt-6 underline max-w-2xl text-center text-lg leading-8 text-gray-100">Find Christ instead :)</a>
     </div>
-    <a href="https://twowaystolive.com/" class="mx-auto mt-6 underline max-w-2xl text-center text-lg leading-8 text-gray-100">Find Christ instead :)</a>
     
   </div>
 </div>
