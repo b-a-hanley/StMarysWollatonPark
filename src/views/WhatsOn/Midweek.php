@@ -16,15 +16,15 @@ require_once 'src/views/Shared/Header.php';
     </div>
 
     <div class="mx-auto max-w-2xl text-center md:text-left md:order-1">
-      <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">Bible Study</p>
+      <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">Bible Study @ The church hall</p>
       <p class="mt-6 text-lg leading-8 text-gray-100">
         First and Second Wednesday of the month
       </p>
-      <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">Prayer Meeting</p>
+      <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">Prayer Meeting @ The church hall</p>
       <p class="mt-6 text-lg leading-8 text-gray-100">
         Third Wednesday of the month
       </p>
-      <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">Pastoral Groups</p>
+      <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">Pastoral Groups @ Family homes</p>
       <p class="mt-6 text-lg leading-8 text-gray-100">
         Fourth Wednesday of the month
       </p>

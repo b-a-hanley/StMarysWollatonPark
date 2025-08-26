@@ -16,13 +16,13 @@ require_once 'src/views/Shared/Header.php';
     </div>
 
     <div class="mx-auto max-w-2xl text-center md:text-left md:order-1">
-      <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">10:30am</p>
+      <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">10:30am @ The church hall</p>
       <p class="mt-6 text-lg leading-8 text-gray-100">
-        A service containing worship, prayer, talk and liturgy
+        We’re a small, welcoming, multicultural community celebrating Christ together. Our music ranges from reflective to joyful, with something for everyone—including children. We follow traditional Anglican liturgy and offer sermons that explore the gospel in ways that inspire and provoke thought.
       </p>
-      <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">7:30pm</p>
+      <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">7:30pm @ The vicarage</p>
       <p class="mt-6 text-lg leading-8 text-gray-100">
-        18-30s Bible Study Group
+        18-30s Bible Study Group. A relaxed space for young adults to connect, enjoy good company, and dig into the Bible at a thoughtful pace. Expect engaging discussion, in-depth study, some snacks, and a warm, welcoming community.
       </p>
     </div>
   </div>

@@ -18,7 +18,7 @@ require_once 'src/views/Shared/Header.php';
     <div class="mx-auto max-w-2xl text-center md:text-left md:order-1">
       <p class="mt-2 text-2xl font-bold tracking-tight text-gray-100 sm:text-3xl">18-30s Bible Study</p>
       <p class="mt-6 text-lg leading-8 text-gray-100">
-        On the edge of the Jubilee campus, we love the work with students grow in one of the most pivotal times of their faith life.
+        Right on the edge of Jubilee Campus with both University of Nottingham and Nottingham trent near by, our student group is a welcoming, supportive community where university students can explore the Bible in depth. Expect lively discussion, thoughtful challenges, snacks, and friendships that help you grow in faith.
       </p>
     </div>
   </div>
