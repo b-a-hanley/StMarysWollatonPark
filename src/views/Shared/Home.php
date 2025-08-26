@@ -11,28 +11,16 @@ require_once 'Header.php';
     <p class="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-100">Select one of the options below</p>
     </div>
     <div class="mt-10 grid-cols-2 grid gap-4">
-		<a href="/st-marys/about-us">
+		<a href="/st-marys/our-beliefs">
 			<div class="rounded-3xl mx-6 p-8 ring-1 ring-gray-200">
 				<h3 class="text-lg font-semibold leading-8 text-gray-100">About us</h3>
-				<p class="mt-4 text-sm leading-6 text-gray-300">Find about our family and history.</p>
+				<p class="mt-4 text-sm leading-6 text-gray-300">Find out what we believe</p>
 			</div>
 		</a>
-		<a href="/st-marys/media">
+		<a href="/st-marys/sundays">
 			<div class="rounded-3xl mx-6 p-8 ring-1 ring-gray-200">
-				<h3 class="text-lg font-semibold leading-8 text-gray-100">Media</h3>
-				<p class="mt-4 text-sm leading-6 text-gray-300">Explore our most recent services.</p>
-			</div>
-		</a>
-		<a href="/st-marys/events">
-			<div class="rounded-3xl mx-6 p-8 ring-1 ring-gray-200">
-				<h3 class="text-lg font-semibold leading-8 text-gray-100">Events</h3>
-				<p class="mt-4 text-sm leading-6 text-gray-300">See all our upcoming events.</p>
-			</div>
-		</a>
-		<a href="/st-marys/giving">
-			<div class="rounded-3xl mx-6 p-8 ring-1 ring-gray-200">
-				<h3 class="text-lg font-semibold leading-8 text-gray-100">Giving</h3>
-				<p class="mt-4 text-sm leading-6 text-gray-300">Support us financially.</p>
+				<h3 class="text-lg font-semibold leading-8 text-gray-100">Sundays</h3>
+				<p class="mt-4 text-sm leading-6 text-gray-300">Come join us this week.</p>
 			</div>
 		</a>
 	  </div>
