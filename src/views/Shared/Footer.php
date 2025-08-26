@@ -9,7 +9,7 @@
                     <a href="/st-marys/our-story" class="hover:underline me-4 md:me-6">About</a>
                 </li>
                 <li>
-                    <a href="/st-marys/privacy-policy" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                    <a href="/src/files/Privacy-Notice.pdf" download class="hover:underline me-4 md:me-6">Privacy Policy</a>
                 </li>
                 <li>
                     <a href="/st-marys/safeguarding" class="hover:underline me-4 md:me-6">Safeguarding</a>
